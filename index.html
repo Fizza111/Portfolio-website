@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fizza-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="queries.css" rel="stylesheet" type="css">
+     
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Fizza's Portfolio</div>
+            <div class="right">
+                <ul>
+                   <a href="/" class="list"><li>Home</li>
+                   <a href="/"class="list"><li>About</li></a>
+                   <a href="/"class="list"><li>Services</li></a>
+                   <a href="/"class="list"><li>My projects</li></a> 
+                   <a href="/" class="list"><li>Contact Me</li></a> 
+                </ul>
+            </div>
+       </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="left-section">
+                <div id="inner">
+                <div class="intro">Hey I am <span class="purple"> Fizza</span></div>
+                <div class="intro">and I am a passionate</div>
+                <span id="element"></span>
+                <br>
+                <button class="cv">Download CV</button>
+                <button class="ghub">Visit my Github</button>
+                </div>
+            </div>
+            <div class="right-section">
+                <image src="images\programmer.png" id="image"></image>
+                <i class="fa-brands fa-facebook" id="fa"></i>
+                <i class="fa-brands fa-instagram" id="logo"></i>
+                <i class="fa-brands fa-whatsapp" id="watsapp"></i>
+            </div>
+        </section>
+        <hr>
+        <section class="second-section">
+            <span class="gray-color">What I have done so far</span>
+            <h1>Work experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <image src="images\html.png" class="image"></image>
+                    <h6>HTML developer</h6>
+                    <p>Crafted semantic HTML markup to structure content effectively and improve accessibility.
+                         </p>
+                </div>
+                <div class="vertical">
+                    <image src="images\frontened.jpeg" class="image"></image>
+                    <h6>Frontened developer</h6>
+                    <p>Developed responsive websites using HTML5, CSS3, and JavaScript to enhance user experience across various web pages.</p>
+                </div>
+                <div class="vertical">
+                    <image src="images\android.jpeg" class="image"></image>
+                    <h6>AndroidApp developer</h6>
+                    <p>Designed and developed native Android applications using Java and Kotlin, adhering to Material Design guidelines.</p>
+                </div>
+                <div class="vertical">
+                    <image src="images\software.jpeg" class="image"></image>
+                    <h6>Software developer</h6>
+                    
+                    
+                    <p>Designed and developed scalable software solutions, focusing on clean architecture and efficient algorithms.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <div class="last">
+            <h2>My Skills</h2>
+            <div class="languages">
+              <div class="image-div">
+                <div class="img">
+                    <image src="images\java.png" class="pic"></image>
+                    <h3>Java</h3>
+                </div>
+              </div>
+              <div class="image-div">
+                <div class="img">
+                    <image src="images\swift.jpeg" class="pic"></image>
+                    <h3>swift</h3>
+                </div>
+              </div>
+              <div class="image-div"><div class="img">
+                <image src="images\mysql.png" class="pic"></image>
+                <h3>mysql</h3>
+            </div></div>
+              <div class="image-div">
+                <div class="img">
+                    <image src="images\nodejs.png" class="pic"></image>
+                    <h3>nodejs</h3>
+                </div>
+              </div>
+              <div class="image-div">
+                <div class="img">
+                    <image src="images\python.jpeg" class="pic"></image>
+                    <h3>Python</h3>
+                </div>
+              </div>
+              <div class="image-div">
+                <div class="img">
+                    <image src="images\download.jpeg" class="pic"></image>
+                    <h3>Kotlin</h3>
+                </div>
+              </div>
+              <div class="image-div">
+                <div class="img">
+                    <image src="images\github.png" class="pic"></image>
+                    <h3>Github</h3>
+                </div>
+              </div>
+              <div class="image-div">
+                <div class="img">
+                    <image src="images\mongo.png" class="pic"></image>
+                    <h3>mongo DB</h3>
+                </div>
+              </div>
+
+            </div>
+            
+        </div>
+        
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['web developer', 'software engineer','video editor'],
+      typeSpeed: 70,
+    });
+  </script>
+  <div class="end-g">
+    <h3>Contact me</h3>
+    <i class="fa-brands fa-linkedin" id="link"></i>
+   <span id="linkdin"> https://www.linkedin.com</span>
+    <i class="fa-regular fa-envelope" id="email"></i>
+    <span id="eml">abc000@gmail.com</span>
+  </div>
+</body>
+</html>

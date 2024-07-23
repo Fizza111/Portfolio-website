@@ -1,0 +1,288 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: black;
+    color:white
+}
+nav{
+    background-color: rgb(41, 38, 38);
+    height:40px;
+    display: flex;
+    justify-content:space-around;
+    width:100%;
+    align-items: center;
+    position:fixed;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.left{
+    font-size: 1.5rem;
+}
+.first{
+    display: flex;
+    justify-content:space-evenly;
+    height:350px;
+    background-color: black;
+    margin-bottom: 70px;
+    
+}
+.left-section{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.right-section{
+   display: flex;
+   width:30%;
+    
+}
+#image{
+    height: 100%;
+    width:100%
+}
+.purple{
+    color: rgb(122, 230, 44);
+}
+.list{
+    text-decoration: none;
+    color:white
+}
+.list:hover{
+    color: rgb(89, 168, 238);
+    font-size: 1.2rem;
+   border: solid white 1px;
+}
+#element{
+    color:rgb(122, 230, 44)
+}
+.second-section{
+    margin: 40px;
+    max-width: 80vw;
+    height: 400px;
+    margin-bottom: 100px;
+   
+}
+hr{
+  border:0px;
+  background: rgb(103, 103, 105);
+  height: 1.5px;
+  
+
+}
+.second-section h1{
+    font-size: l.9rem;
+    border-top: 230px;
+    
+}
+.second-section h1:hover{
+    color: rgb(84, 205, 205);
+}
+.gray-color{
+    color: rgb(139, 137, 137);
+}
+.box{
+    background: white;
+    height: 1px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.vertical{
+    width:1px;
+    height: 120px;
+    background-color: white;
+}
+.vertical .image{
+     height: 25px;
+     width:35px;
+     position: relative;
+     bottom: 35px;
+     right: 15px;
+     border: 5px;
+     border-radius: 10px;
+     
+}
+.vertical h6{
+    position: relative;
+    top:90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.vertical p{
+    width:100px;
+    position: relative;
+    top:100px;
+    color:rgb(198, 206, 206);
+    font-size: 0.7rem;
+    right:30px;
+    
+
+}
+#logo{
+   position: relative;
+   left:10px;
+   top:50px;
+}
+#fa{
+    position: relative;
+    right:30px;
+    top:50px;
+}
+#watsapp
+{
+    position: relative;
+    right:30px;
+    top:50px;
+}
+.last{
+    height:auto;
+}
+.languages{
+    display: flex;
+    justify-content: center;
+    height:500px;
+    align-items:stretch;
+    flex-wrap: wrap;
+}
+.im{
+    width:170px;
+    height: 130px;
+    border: 30px;
+    border-radius: 80px;
+    margin-top: 40px;
+}
+.last h2{
+    position: relative;
+    left: 40px;
+}
+.last h2:hover{
+color: aquamarine;
+}
+
+.cv{
+    padding: 4px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    position: relative;
+    top:8px;
+    border-radius: 15px;
+}
+.ghub{
+    padding: 4px;
+    color: black;
+    background-color: rgb(141, 141, 241);
+    position: relative;
+    top:8px;
+    border:1px solid black;
+    border-radius: 15px;
+}
+.cv:hover{
+    color:blue;
+    background-color: white;
+}
+.ghub:hover{
+    color:white;
+    background-color: black;
+    border:1px solid white;
+    /* display: block;
+    filter: drop-shadow(0 0 10px
+     #fffdef); */
+
+}
+.image-div{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50px;
+
+}
+.image-div:hover{
+    background-color: rgb(204, 214, 230);
+    border-radius: 10px;
+    height:150px;
+}
+.pic{
+    width:70px;
+    height: 70px;
+    border-radius: 50px;
+}
+.last h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.end-g{
+    background-color: rgb(41, 38, 38);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+#email{
+    position: relative;
+    left: 40px;
+}
+#eml{
+    position: relative;
+    left:50px;
+}
+#link{
+    position: relative;
+    right: 10px;
+}
+.end-g h3{
+    position: relative;
+    right: 80px;
+}
+@media (max-width: 600px) {
+.vertical p{
+        font-size: 0.5rem;
+        width:50px;
+    }
+    nav{
+        font-size: 0.6rem;
+    }
+    .vertical h6{
+        font-size:0.5rem ;
+    }
+    .end-g h3{
+        font-size: 0.5rem;
+    }
+    #linkdin{
+        font-size: 0.4rem;
+    }
+    #eml{
+        font-size: 0.4rem;
+    }
+    .left{
+        font-size: 0.6rem;
+    }
+    .end-g{
+        height: 50px;
+    }
+}
